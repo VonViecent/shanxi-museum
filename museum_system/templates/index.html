@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陕西历史博物馆 馆藏信息管理系统</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <h1>陕西历史博物馆</h1>
+                <p>Shaanxi History Museum Collection Management System</p>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="active">首页管理</a>
+                <a href="#">文物入库</a>
+                <a href="#">展览策划</a>
+                <a href="#">馆藏查询</a>
+                <a href="#">系统设置</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 古风大图横幅 -->
+    <section class="banner"></section>
+
+    <!-- 数据统计卡片 -->
+    <section class="stat-box">
+        <div class="stat-item">
+            <div class="num">1286</div>
+            <div class="txt">馆藏文物总数</div>
+        </div>
+        <div class="stat-item">
+            <div class="num">36</div>
+            <div class="txt">常设展览</div>
+        </div>
+        <div class="stat-item">
+            <div class="num">48</div>
+            <div class="txt">国宝级文物</div>
+        </div>
+        <div class="stat-item">
+            <div class="num">12</div>
+            <div class="txt">临时特展</div>
+        </div>
+    </section>
+
+    <!-- 主体内容区域 -->
+    <div class="container main-wrap">
+        <!-- 文物录入板块 -->
+        <div class="card-box">
+            <div class="card-title">
+                <span>文物信息录入</span>
+            </div>
+            <div class="form-wrap">
+                <div class="form-row">
+                    <label>文物名称</label>
+                    <input type="text" placeholder="请输入文物完整名称">
+                </div>
+                <div class="form-row">
+                    <label>所属朝代</label>
+                    <input type="text" placeholder="如：唐代、西周、秦代">
+                </div>
+                <div class="form-row">
+                    <label>文物类别</label>
+                    <input type="text" placeholder="如：金银器、唐三彩、青铜器">
+                </div>
+                <div class="form-row">
+                    <label>出土地址</label>
+                    <input type="text" placeholder="请填写出土地点">
+                </div>
+                <div class="form-row">
+                    <label>文物简介</label>
+                    <textarea placeholder="请输入文物历史背景与介绍"></textarea>
+                </div>
+                <div class="btn-row">
+                    <button class="btn-add">提交入库</button>
+                    <button class="btn-reset">重置清空</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 展览管理板块 -->
+        <div class="card-box">
+            <div class="card-title">
+                <span>展览信息管理</span>
+            </div>
+            <div class="form-wrap">
+                <div class="form-row">
+                    <label>展览名称</label>
+                    <input type="text" placeholder="输入展览主题名称">
+                </div>
+                <div class="form-row">
+                    <label>开展时间</label>
+                    <input type="text" placeholder="格式：2026-06-01">
+                </div>
+                <div class="form-row">
+                    <label>结束时间</label>
+                    <input type="text" placeholder="格式：2026-09-01">
+                </div>
+                <div class="form-row">
+                    <label>展厅位置</label>
+                    <input type="text" placeholder="如一展厅、大唐遗宝厅">
+                </div>
+                <div class="form-row">
+                    <label>展览简介</label>
+                    <textarea placeholder="填写展览主题与内容介绍"></textarea>
+                </div>
+                <div class="btn-row">
+                    <button class="btn-add">保存展览</button>
+                    <button class="btn-reset">重置</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部版权 -->
+    <footer class="footer">
+        <p>© 2026 陕西历史博物馆 馆藏信息管理系统 版权所有</p>
+    </footer>
+</body>
+</html>
